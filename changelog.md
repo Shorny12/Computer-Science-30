@@ -7,3 +7,4 @@ All notable changes to this project will be recorded with the date of edition.
 ### Created
 - Main game file
 - README file
+- Changelog
