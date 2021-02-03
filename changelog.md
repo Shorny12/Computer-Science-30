@@ -8,3 +8,8 @@ All notable changes to this project will be recorded with the date of edition.
 - Main game file
 - README file
 - Changelog
+
+## [Version 1.0] - 2021/01/18
+### Created
+- Nested Dictionaries
+- Simple menu
