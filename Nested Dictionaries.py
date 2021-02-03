@@ -232,7 +232,7 @@ locations = {
 }
 
 # Loop for locations
-# Loop the dictionary, locations and print its keps and values seperately
+# Loop the dictionary locations and print its keps and values seperately
 for location, descriptions in locations.items():
     msg = f"{location.title()} is the place "
     for i, description in enumerate(descriptions):
