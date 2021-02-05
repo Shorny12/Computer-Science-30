@@ -1,7 +1,7 @@
 # RPG Continuous Game Play
 # Zhixiang Wang
 # CS 30 AM class
-# Date Created: February 5, 2021
+# Date Created: February 4, 2021
 # Date Modified: February 5, 2021
 
 # Set active to True
