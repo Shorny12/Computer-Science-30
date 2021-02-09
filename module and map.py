@@ -2,18 +2,20 @@
 # Zhixiang Wang
 # CS 30 AM class
 # Date Created: February 5, 2021
-# Date Modified: February 8, 2021
+# Date Modified: February 7, 2021
 
 import random
 from tabulate import tabulate
 
 
+# Creat room tiles
 def append_list(dictionary, list):
     """Create a list from elements of a dictionary"""
     for x in dictionary:
         list.append(x)
 
 
+# Replace room tiles when moving
 def replace_tile(list, tile1, tile2):
     """Make sure that replaced tiles do not overwrite each other"""
     while random_tile(list, tile1) == random_tile(list, tile2):
@@ -21,6 +23,7 @@ def replace_tile(list, tile1, tile2):
             random_tile(list, tile2)
 
 
+# replace random tile
 def random_tile(list, tile):
     """Choose a random tile to replace and return the indices"""
     x = random.choice(list)
@@ -31,6 +34,7 @@ def random_tile(list, tile):
     return (n, m)
 
 
+# Generate map
 def generate_map(list):
     """randomly generate a 3x3 room tile types"""
     map = [[random.choice(list) for i in range(3)] for j in range(3)]
@@ -39,6 +43,7 @@ def generate_map(list):
     return map
 
 
+# print map
 def print_map(dictionary):
     """print out each room generated"""
     for key in dictionary:
