@@ -2,7 +2,7 @@
 # Zhixiang Wang
 # CS 30 AM class
 # Date Created: February 5, 2021
-# Date Modified: February 7, 2021
+# Date Modified: February 8, 2021
 
 import random
 from tabulate import tabulate
