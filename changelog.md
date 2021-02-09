@@ -17,3 +17,9 @@ All notable changes to this project will be recorded with the date of edition.
 ## [Version 1.2] - 2021/02/05
 ### Created
 - Continuous game play
+
+## [Version 1.3] - 2021/02/09
+### Created
+- Module and maps
+### Updated
+- Continuous Game play
